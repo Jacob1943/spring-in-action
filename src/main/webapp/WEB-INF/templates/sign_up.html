@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+</head>
+<body>
+<h1>Sign up</h1>
+<form method="post" enctype="multipart/form-data" action="/signUp">
+    <label>Name:</label>
+    <input type="text" placeholder="name">
+    <br>
+    <lable>Image</lable>
+    <input type="file" name="image" accept="image/jpeg, image/png, image/gif">
+    <br>
+    <button>Sign Up</button>
+</form>
+</body>
+</html>
